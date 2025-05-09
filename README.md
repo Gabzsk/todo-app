@@ -31,7 +31,7 @@ Um aplicativo simples de lista de tarefas feito com **React Vite + TypeScript +*
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/todo-app.git
+git clone https://github.com/Gabzsk/todo-app.git
 
 # Acesse a pasta do projeto
 cd todo-app
