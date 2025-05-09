@@ -1,0 +1,84 @@
+.card {
+  background-color: #18181c;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 6px;
+  border-color: #343446;
+  padding: 12px 16px;
+  margin: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  min-height: 42px;
+}
+
+.card_content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.card_input {
+  background-color: #1f1f22;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 1rem;
+  flex: 1;
+}
+
+.card_title {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.card_buttons {
+  display: flex;
+  gap: 8px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.1s ease;
+}
+
+.card:hover .card_buttons {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.delete_btn {
+  background-color: #da3e44;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.delete_btn:hover {
+  background-color: #c0392b;
+}
+.edit_btn {
+  background-color: #7a5de5;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.edit_btn:hover {
+  background-color: rgb(110, 26, 184);
+}
+
+.done {
+  text-decoration: line-through;
+  color: #777;
+}
