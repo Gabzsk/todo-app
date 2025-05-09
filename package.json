@@ -1,6 +1,7 @@
 {
   "name": "reactts-vite-todolist",
   "private": true,
+  "homepage": "https://gabzsk.github.io/todo-app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
